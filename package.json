@@ -1,0 +1,27 @@
+{
+  "name": "agrimater-jarvis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "name": "agrimater-jarvis",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.93.0",
+    "openrouter-ai": "^2.1.32"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
